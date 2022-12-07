@@ -65,7 +65,7 @@
       <!-- Преимущества -->
       <section class="advances-box">
         <div class="container">
-          <h2 hidden>Переваги</h2>
+          <h2 class="hidden">Переваги</h2>
           <ul class="advances">
             <li class="item">
               <div class="icon-advances">
@@ -445,6 +445,61 @@
             <use href="./images/icons.svg#icon-vector"></use>
           </svg>
         </button>
+        <div class="modal-form">
+          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+          <form>
+            <div class="form-fields">
+              <label class="modal-label">
+                Ім'я
+                <div class="positioning-icon">
+                  <input type="text" name="name" class="modal-input" />
+                  <svg width="18" height="18" class="input-icon">
+                    <use href="./images/icons.svg#icon-name"></use>
+                  </svg>
+                </div>
+              </label>
+
+              <label class="modal-label">
+                Телефон
+                <div class="positioning-icon">
+                  <input type="tel" name="number" class="modal-input" />
+                  <svg width="18" height="18" class="input-icon">
+                    <use href="./images/icons.svg#icon-number"></use>
+                  </svg>
+                </div>
+              </label>
+              <label class="modal-label">
+                Пошта
+                <div class="positioning-icon">
+                  <input type="email" name="email" class="modal-input" />
+                  <svg width="18" height="18" class="input-icon">
+                    <use href="./images/icons.svg#icon-email"></use>
+                  </svg>
+                </div>
+              </label>
+              <label class="modal-label">
+                Коментар
+                <textarea
+                  name="comment"
+                  rows="10"
+                  placeholder="Введіть текст"
+                  class="modal-input modal-comment"
+                ></textarea>
+              </label>
+            </div>
+            <div class="modal-terms">
+              <label class="label-terms">
+                <div class="positioning-checkmark">
+                <input type="checkbox" name="terms" class="checkbox hidden" />
+                <span class="icon-checkbox"></span>
+                Погоджуюся з розсилкою та приймаю</label
+              >
+              <a href="#" class="terms-link">Умови договору</a>
+              </div>
+            </div>
+            <button type="submit" class="button button-submit">Відправити</button>
+          </form>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
