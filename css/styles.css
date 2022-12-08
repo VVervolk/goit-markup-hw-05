@@ -681,7 +681,7 @@ footer .logo {
 
   width: 528px;
   height: 581px;
-  /* padding: 8px; */
+  padding: 8px;
 
   background-color: #fff;
 }
@@ -691,8 +691,6 @@ footer .logo {
   height: 30px;
   width: 30px;
   margin-left: auto;
-  margin-top: 8px;
-  margin-right: 8px;
   padding: 5px;
 
   border-radius: 50%;
@@ -702,125 +700,4 @@ footer .logo {
   border: 1px solid rgba(0, 0, 0, 0.1);
 
   cursor: pointer;
-}
-
-.modal-form {
-  width: 100%;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.modal-title {
-  margin-bottom: 12px;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-}
-
-.form-fields {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin-bottom: 25px;
-}
-
-.modal-label {
-  font-size: 12px;
-  line-height: 1.2;
-}
-
-.modal-input {
-  display: block;
-  width: 100%;
-  height: 40px;
-  padding: 12px 42px;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-}
-
-.modal-comment {
-  height: 120px;
-  padding-left: 16px;
-  resize: none;
-}
-
-.modal-terms {
-  margin-bottom: 30px;
-  font-size: 14px;
-  line-height: 1.7px;
-}
-
-.positioning-checkmark {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.modal-input:focus {
-  outline-color: var(--focus-color);
-}
-
-.modal-label:focus-within {
-  color: var(--focus-color);
-}
-
-.positioning-icon {
-  position: relative;
-  width: 100%;
-}
-
-.input-icon {
-  position: absolute;
-  top: 11px;
-  left: 12px;
-}
-
-.modal-input:focus + .input-icon {
-  fill: var(--focus-color);
-}
-
-.hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.icon-checkbox {
-  display: inline-block;
-  width: 16px;
-  height: 15px;
-  margin-right: 8px;
-  border: 2px solid var(--title-color);
-  border-radius: 2px;
-}
-
-.checkbox:checked + .icon-checkbox {
-  border-color: transparent;
-  background-color: var(--focus-color);
-  background-image: url('../images/check-mark.svg');
-  background-size: contain;
-  background-origin: border-box;
-}
-
-.terms-link {
-  display: inline-block;
-  margin-left: 4px;
-}
-
-.terms-link:visited {
-  color: var(--focus-color);
-}
-
-.button-submit {
-  display: block;
-  width: 200px;
-  height: 50px;
-  margin-left: auto;
-  margin-right: auto;
 }
